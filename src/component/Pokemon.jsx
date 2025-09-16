@@ -60,7 +60,7 @@ export const Pokemon = () => {
         <input
           type="text"
           placeholder="Search Pokémon..."
-          className="w-full max-w-md px-4 py-3 rounded-full text-white font-medium focus:outline-none focus:ring-2 focus:ring-yellow-500 shadow-md"
+          className="w-full max-w-md px-4 py-3 rounded-full text-white font-medium border-2 border-yellow-500 shadow-md focus:outline-none focus:ring-2 focus:ring-yellow-400"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value.toLowerCase())}
         />
